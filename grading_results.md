@@ -31,9 +31,11 @@ Implement a `fast_copy(source, count)` function that:
 | ANUSHA S | 25/25 | 28/30 | 16/20 | 12/15 | 6/10 | **87/100** | **B+** |
 | ARUNA R | 20/25 | 22/30 | 12/20 | 10/15 | 5/10 | **69/100** | **C+** |
 | DHAMAYANTHI P | 25/25 | 30/30 | 18/20 | 14/15 | 8/10 | **95/100** | **A** |
+| INDUMATHI S | 25/25 | 30/30 | 17/20 | 10/15 | 5/10 | **87/100** | **B+** |
 | JANANI R | 25/25 | 30/30 | 17/20 | 10/15 | 5/10 | **87/100** | **B+** |
 | JANANI S | 25/25 | 30/30 | 19/20 | 15/15 | 10/10 | **99/100** | **A+** |
 | KIRTHIKA R | 23/25 | 26/30 | 17/20 | 15/15 | 10/10 | **91/100** | **A** |
+| MADAN S | 25/25 | 30/30 | 18/20 | 8/15 | 4/10 | **85/100** | **B+** |
 | PRADEEP G | 25/25 | 30/30 | 18/20 | 12/15 | 8/10 | **93/100** | **A** |
 | SARANYA S | 25/25 | 28/30 | 16/20 | 15/15 | 10/10 | **94/100** | **A** |
 | SATHISH R | 25/25 | 30/30 | 18/20 | 15/15 | 9/10 | **97/100** | **A+** |
@@ -95,6 +97,21 @@ Implement a `fast_copy(source, count)` function that:
 
 ---
 
+### INDUMATHI S - 87/100 (B+) [NEW]
+**Strengths:**
+- Correct implementation following all constraints
+- Clean, readable code structure
+- Proper remainder handling before main loop
+- Includes working example with output
+- Brief but accurate explanation mentioning Duff's device and loop unrolling
+
+**Areas for Improvement:**
+- Minimal explanation - could elaborate more on the algorithm
+- No comparison or performance analysis
+- Could include more detailed comments in code
+
+---
+
 ### JANANI R - 87/100 (B+)
 **Strengths:**
 - Correct implementation with all constraints followed
@@ -133,6 +150,21 @@ Implement a `fast_copy(source, count)` function that:
 **Areas for Improvement:**
 - Uses `for _ in range(full_groups)` which is a compact loop (minor constraint interpretation issue vs while loop)
 - Story, while creative, takes significant space that could be used for technical depth
+
+---
+
+### MADAN S - 85/100 (B+) [NEW]
+**Strengths:**
+- Correct implementation following all constraints
+- Good inline comments explaining each section
+- Clean code structure with clear separation of partial and main loop handling
+- Proper variable naming
+
+**Areas for Improvement:**
+- **No explanation provided** - only code with comments
+- No example output discussion
+- Missing any analysis or learning reflection
+- Test case uses `count = 8` with 9-element source (could be confusing)
 
 ---
 
@@ -193,13 +225,26 @@ Implement a `fast_copy(source, count)` function that:
 
 | Metric | Value |
 |--------|-------|
-| Average Score | 90.5/100 |
+| Total Submissions | 13 |
+| Average Score | 89.0/100 |
 | Highest Score | 99/100 (JANANI S) |
 | Lowest Score | 69/100 (ARUNA R) |
 | A+ Grades | 2 |
 | A/A- Grades | 6 |
-| B+ Grades | 2 |
+| B+ Grades | 4 |
 | C+ Grades | 1 |
+
+---
+
+## Grade Distribution
+
+| Grade | Count | Percentage |
+|-------|-------|------------|
+| A+ | 2 | 15.4% |
+| A | 4 | 30.8% |
+| A- | 1 | 7.7% |
+| B+ | 5 | 38.5% |
+| C+ | 1 | 7.7% |
 
 ---
 
@@ -209,6 +254,7 @@ Implement a `fast_copy(source, count)` function that:
 2. **Most Common Issue**: Minor variations in remainder handling (== vs >=) and loop type (for vs while)
 3. **Best Creative Approaches**: JANANI S (performance comparison), KIRTHIKA R (robot story), SARANYA S (mythology), SATHISH R (constraint analysis)
 4. **Critical Issue**: ARUNA R's solution has significant logic errors that would cause incorrect execution
+5. **New Submissions**: INDUMATHI S and MADAN S both have correct implementations but minimal explanations
 
 ---
 

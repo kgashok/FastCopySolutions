@@ -21,6 +21,8 @@ This analysis examines each submission for indicators commonly associated with A
 | **SIKKANDHAR BATCHA J** | 8 | 0 | Yes | 580 | **MODERATE-HIGH** | 70% |
 | SATHISH R | 4 | 1 | Yes | 607 | MODERATE | 50% |
 | JANANI R | 2 | 0 | Yes | 478 | LOW-MODERATE | 35% |
+| INDUMATHI S | 2 | 0 | No | 180 | LOW | 25% |
+| MADAN S | 0 | 0 | No | 150 | VERY LOW | 5% |
 | ARUNA R | 1 | 0 | No | 322 | LOW | 15% |
 | SARANYA S | 1 | 0 | No | 665 | LOW | 10% |
 | ANITHA M | 0 | 0 | No | 501 | VERY LOW | 5% |
@@ -139,9 +141,41 @@ This analysis examines each submission for indicators commonly associated with A
 
 ---
 
+### NEW SUBMISSIONS
+
+#### 6. INDUMATHI S - **25% AI Probability** [NEW]
+
+**Observations:**
+- Very brief submission (approx. 180 words of explanation)
+- Mentions "Duff's device" and "loop unrolling" - could be from research or AI
+- Simple, functional explanation without elaborate prose
+- Code is clean but explanation is minimal
+
+**AI Indicators Found:**
+- "loop unrolling optimization technique"
+- "reduce the overhead of loop control"
+- "inspired by Duff's device"
+
+**Verdict:** Low risk. The brevity and lack of elaborate structure suggests original work. Technical terms could be from legitimate research. The minimal explanation is more consistent with a student who understands the code but didn't invest heavily in documentation.
+
+---
+
+#### 7. MADAN S - **5% AI Probability** [NEW]
+
+**Observations:**
+- **Code only** - no prose explanation at all
+- Only inline comments (standard programming comments)
+- No technical jargon in explanations
+- No comparison tables or structured sections
+- Test case shows practical understanding
+
+**Verdict:** Very low risk. This is the opposite of AI-generated content - it's purely functional code without the elaborate explanations that AI typically produces. The inline comments are practical rather than educational.
+
+---
+
 ### LOW RISK Submissions (Likely Original)
 
-#### 6. ARUNA R - **15% AI Probability**
+#### 8. ARUNA R - **15% AI Probability**
 - Contains logic errors (human mistakes)
 - Informal code comments ("//both source and destination index is 0")
 - Errors in implementation suggest genuine student struggle
@@ -149,7 +183,7 @@ This analysis examines each submission for indicators commonly associated with A
 
 ---
 
-#### 7. SARANYA S - **10% AI Probability**
+#### 9. SARANYA S - **10% AI Probability**
 - **Unique creative element:** Hindu mythology analogy (Arjuna/Karnan story)
 - Personal voice in writing ("I ask my robot to copy")
 - Fruit box analogy shows original teaching approach
@@ -160,7 +194,7 @@ This analysis examines each submission for indicators commonly associated with A
 
 ---
 
-#### 8. KIRTHIKA R - **5% AI Probability**
+#### 10. KIRTHIKA R - **5% AI Probability**
 - **Unique creative element:** FastCopy robot children's story
 - "Planets in Space" narrative is unconventional
 - Personal voice ("little robot named FastCopy")
@@ -171,7 +205,7 @@ This analysis examines each submission for indicators commonly associated with A
 
 ---
 
-#### 9. ANITHA M, ANUSHA S, DHAMAYANTHI P - **5% AI Probability each**
+#### 11. ANITHA M, ANUSHA S, DHAMAYANTHI P - **5% AI Probability each**
 - No AI-typical phrases detected
 - Code-focused submissions without elaborate prose
 - Natural imperfections in formatting
@@ -203,7 +237,16 @@ This analysis examines each submission for indicators commonly associated with A
 |---------------|------------|----------------|
 | **HIGH (70-90%)** | JANANI S, PRADEEP G, SIKKANDHAR BATCHA J | Further investigation recommended; consider oral examination |
 | **MODERATE (35-50%)** | SATHISH R, JANANI R | May be AI-assisted; acceptable if policy allows AI assistance |
-| **LOW (5-15%)** | ARUNA R, SARANYA S, KIRTHIKA R, ANITHA M, ANUSHA S, DHAMAYANTHI P | Likely original work |
+| **LOW (5-25%)** | INDUMATHI S, MADAN S, ARUNA R, SARANYA S, KIRTHIKA R, ANITHA M, ANUSHA S, DHAMAYANTHI P | Likely original work |
+
+---
+
+## New Submissions Summary
+
+| Submitter | AI Risk | Notes |
+|-----------|---------|-------|
+| **INDUMATHI S** | LOW (25%) | Brief but functional; mentions Duff's device which could be from research |
+| **MADAN S** | VERY LOW (5%) | Code-only submission with no prose - opposite of AI pattern |
 
 ---
 
@@ -213,6 +256,18 @@ This analysis examines each submission for indicators commonly associated with A
 2. **Establish AI policy:** Clarify whether AI assistance is permitted for explanations vs. code
 3. **SARANYA S and KIRTHIKA R:** Despite lower grades, their creative approaches demonstrate original thinking that should be valued
 4. **ARUNA R:** The errors in this submission, while lowering the grade, actually increase confidence in originality
+5. **MADAN S:** While low on explanation, the code-only approach is clearly not AI-generated and shows practical competence
+
+---
+
+## Updated Statistics
+
+| Metric | Value |
+|--------|-------|
+| Total Submissions Analyzed | 13 |
+| HIGH Risk | 3 (23.1%) |
+| MODERATE Risk | 2 (15.4%) |
+| LOW/VERY LOW Risk | 8 (61.5%) |
 
 ---
 
